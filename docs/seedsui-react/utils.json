@@ -1,0 +1,104 @@
+[
+  {
+    "name": "ArrayUtil",
+    "dirName": "ArrayUtil",
+    "description": "数组工具类，提供数组和树形数据的操作方法。",
+    "whenToUse": "## 何时使用\n\n- 需要处理树形数据结构时。\n- 需要深度遍历和搜索树形数据时。\n- 需要获取、设置树形节点时。\n- 需要扁平化树形数据时。\n- 需要比较数组是否相等时。\n- 需要处理复杂的数组操作时。"
+  },
+  {
+    "name": "AssetUtil",
+    "dirName": "AssetUtil",
+    "description": "资源工具类，用于处理文件、脚本、图片等资源的加载和管理。",
+    "whenToUse": "## 何时使用\n\n- 需要动态加载JavaScript文件时。\n- 需要获取文件扩展名时。\n- 需要预加载图片资源时。\n- 需要管理外部资源时。"
+  },
+  {
+    "name": "Bridge",
+    "dirName": "Bridge",
+    "description": "桥接工具类，用于与原生应用或第三方平台进行通信。",
+    "whenToUse": "## 何时使用\n\n- 需要与原生应用进行通信时。\n- 需要调用原生功能时。\n- 需要与钉钉等第三方平台集成时。\n- 需要处理平台特定的功能时。"
+  },
+  {
+    "name": "Clipboard",
+    "dirName": "Clipboard",
+    "description": "剪贴板工具类，用于复制文本到系统剪贴板。",
+    "whenToUse": "## 何时使用\n\n- 需要复制文本到剪贴板时。\n- 需要提供一键复制功能时。\n- 需要分享文本内容时。"
+  },
+  {
+    "name": "DateUtil",
+    "dirName": "DateUtil",
+    "description": "日期工具类，提供日期时间处理和格式化功能。",
+    "whenToUse": "## 何时使用\n\n- 需要日期格式化时。\n- 需要日期计算和比较时。\n- 需要时区转换时。\n- 需要获取周、月、季度等时间范围时。\n- 需要处理UTC时间时。"
+  },
+  {
+    "name": "Debugger",
+    "dirName": "Debugger",
+    "description": "调试工具类，用于开发和调试过程中的辅助功能。",
+    "whenToUse": "## 何时使用\n\n- 需要调试应用时。\n- 需要输出调试信息时。\n- 需要开发环境下的辅助功能时。"
+  },
+  {
+    "name": "Device",
+    "dirName": "Device",
+    "description": "设备工具类，用于获取设备信息和设备相关功能。",
+    "whenToUse": "## 何时使用\n\n- 需要获取设备信息时。\n- 需要检测设备类型时。\n- 需要处理设备特定的功能时。\n- 需要适配不同设备时。"
+  },
+  {
+    "name": "DOMUtil",
+    "dirName": "DOMUtil",
+    "description": "DOM工具类，提供DOM操作和节点处理的辅助方法。",
+    "whenToUse": "## 何时使用\n\n- 需要操作DOM元素时。\n- 需要处理CSS类名时。\n- 需要创建图标、文本、组合节点时。\n- 需要防止默认事件时。"
+  },
+  {
+    "name": "EventUtil",
+    "dirName": "EventUtil",
+    "description": "事件工具类，用于事件处理和事件管理。",
+    "whenToUse": "## 何时使用\n\n- 需要处理DOM事件时。\n- 需要事件绑定和解绑时。\n- 需要自定义事件处理时。"
+  },
+  {
+    "name": "FullScreen",
+    "dirName": "FullScreen",
+    "description": "全屏工具类，用于控制页面的全屏显示。",
+    "whenToUse": "## 何时使用\n\n- 需要进入或退出全屏模式时。\n- 需要检测全屏状态时。\n- 需要处理全屏相关事件时。"
+  },
+  {
+    "name": "GeoUtil",
+    "dirName": "GeoUtil",
+    "description": "地理工具类，用于地理位置相关的计算和处理。",
+    "whenToUse": "## 何时使用\n\n- 需要处理地理位置信息时。\n- 需要计算距离和坐标时。\n- 需要地理编码和反编码时。\n- 需要处理地图相关功能时。"
+  },
+  {
+    "name": "HistoryUtil",
+    "dirName": "HistoryUtil",
+    "description": "历史记录工具类，用于管理浏览器历史记录和路由导航。",
+    "whenToUse": "## 何时使用\n\n- 需要管理浏览器历史记录时。\n- 需要处理页面导航时。\n- 需要实现返回功能时。\n- 需要处理嵌套路由时。"
+  },
+  {
+    "name": "LocaleUtil",
+    "dirName": "LocaleUtil",
+    "description": "国际化工具类，用于多语言支持和本地化功能。",
+    "whenToUse": "## 何时使用\n\n- 需要支持多语言时。\n- 需要切换语言时。\n- 需要获取本地化文本时。\n- 需要处理国际化数据时。"
+  },
+  {
+    "name": "MathUtil",
+    "dirName": "MathUtil",
+    "description": "数学工具类，提供数学计算和数值处理的辅助方法。",
+    "whenToUse": "## 何时使用\n\n- 需要进行数学计算时。\n- 需要处理数值运算时。\n- 需要数学相关的辅助功能时。"
+  },
+  {
+    "name": "ObjectUtil",
+    "dirName": "ObjectUtil",
+    "description": "对象工具类，提供对象操作的辅助方法。",
+    "whenToUse": "## 何时使用\n\n- 需要检查对象是否为空时。\n- 需要对象相关的辅助操作时。\n- 需要处理对象数据时。"
+  },
+  {
+    "name": "Request",
+    "dirName": "Request",
+    "description": "请求工具类，用于HTTP请求和API调用。",
+    "whenToUse": "## 何时使用\n\n- 需要发送HTTP请求时。\n- 需要调用API接口时。\n- 需要处理请求缓存时。\n- 需要序列化请求参数时。"
+  },
+  {
+    "name": "Storage",
+    "dirName": "Storage",
+    "description": "存储工具类，用于本地存储和缓存管理。",
+    "whenToUse": "## 何时使用\n\n- 需要本地数据存储时。\n- 需要缓存数据时。\n- 需要管理应用状态时。\n- 需要持久化数据时。"
+  }
+]

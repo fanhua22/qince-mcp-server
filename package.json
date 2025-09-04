@@ -1,0 +1,23 @@
+{
+  "name": "qince-mcp-server",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": "dist/cli.js",
+  "scripts": {
+    "build": "rsbuild build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.5.3",
+    "@rsbuild/plugin-node-polyfill": "^1.4.2"
+  }
+}

@@ -1,0 +1,308 @@
+[
+  {
+    "name": "ActionSheet",
+    "dirName": "ActionSheet",
+    "description": "动作面板，从底部弹出的模态框，提供和当前场景相关的 2 个以上的操作动作。",
+    "whenToUse": "## 何时使用\n\n- 从底部弹出的模态框，提供和当前场景相关的 2 个以上的操作动作。\n- 避免用户进行破坏性操作。"
+  },
+  {
+    "name": "Badge",
+    "dirName": "Badge",
+    "description": "徽标数，出现在按钮、图标旁的数字或状态标记。",
+    "whenToUse": "## 何时使用\n\n- 出现在按钮、图标旁的数字或状态标记。\n- 展示新消息、未读消息数量。"
+  },
+  {
+    "name": "Button",
+    "dirName": "Button",
+    "description": "按钮，用于开始一个即时操作。",
+    "whenToUse": "## 何时使用\n\n- 标记了一个或封装一组操作命令，响应用户点击行为，触发相应的业务逻辑。"
+  },
+  {
+    "name": "Calendar",
+    "dirName": "Calendar",
+    "description": "日历组件，用于选择日期。",
+    "whenToUse": "## 何时使用\n\n- 需要选择日期时。\n- 展示日历信息。"
+  },
+  {
+    "name": "Card",
+    "dirName": "Card",
+    "description": "卡片容器，可以包含标题、内容、操作区域。",
+    "whenToUse": "## 何时使用\n\n- 需要展示包含标题、内容、操作区域的信息时。\n- 作为信息展示的容器。"
+  },
+  {
+    "name": "Cascader",
+    "dirName": "Cascader",
+    "description": "级联选择器，支持多级数据选择。",
+    "whenToUse": "## 何时使用\n\n- 需要从一组相关联的数据集合中进行选择时。\n- 省市区、公司级层、事物分类等场景。"
+  },
+  {
+    "name": "Chat",
+    "dirName": "Chat",
+    "description": "聊天组件，用于展示聊天消息。",
+    "whenToUse": "## 何时使用\n\n- 需要展示聊天消息时。\n- 即时通讯应用。"
+  },
+  {
+    "name": "Checkbox",
+    "dirName": "Checkbox",
+    "description": "多选框，在一组可选项中进行多项选择时。",
+    "whenToUse": "## 何时使用\n\n- 在一组可选项中进行多项选择时。\n- 单独使用可以表示两种状态之间的切换。"
+  },
+  {
+    "name": "Collapse",
+    "dirName": "Collapse",
+    "description": "折叠面板，可以折叠/展开的内容区域。",
+    "whenToUse": "## 何时使用\n\n- 对复杂区域进行分组和隐藏，保持页面的整洁。\n- 手风琴效果。"
+  },
+  {
+    "name": "Confirm",
+    "dirName": "Confirm",
+    "description": "确认对话框，用于确认用户的操作。",
+    "whenToUse": "## 何时使用\n\n- 需要用户确认某个操作时。\n- 避免用户进行破坏性操作。"
+  },
+  {
+    "name": "DatePicker",
+    "dirName": "DatePicker",
+    "description": "日期选择器，用于选择日期、时间或日期范围。",
+    "whenToUse": "## 何时使用\n\n- 需要选择日期时。\n- 需要选择日期范围时。\n- 需要选择时间时。"
+  },
+  {
+    "name": "Divider",
+    "dirName": "Divider",
+    "description": "分割线，用于分隔内容。",
+    "whenToUse": "## 何时使用\n\n- 对不同章节的文本段落进行分割。\n- 对行内文字/链接进行分割。"
+  },
+  {
+    "name": "FloatButton",
+    "dirName": "FloatButton",
+    "description": "悬浮按钮，固定在页面某个位置的按钮。",
+    "whenToUse": "## 何时使用\n\n- 需要固定在页面某个位置的按钮时。\n- 返回顶部、快速操作等场景。"
+  },
+  {
+    "name": "FooterBar",
+    "dirName": "FooterBar",
+    "description": "底部栏，固定在页面底部的操作区域。",
+    "whenToUse": "## 何时使用\n\n- 需要在页面底部固定操作按钮时。\n- 表单提交、购物车等场景。"
+  },
+  {
+    "name": "Form",
+    "dirName": "Form",
+    "description": "表单，用于数据录入、校验。",
+    "whenToUse": "## 何时使用\n\n- 需要用户输入数据时。\n- 需要对输入数据进行校验时。"
+  },
+  {
+    "name": "Icon",
+    "dirName": "Icon",
+    "description": "图标，用于展示各种图标。",
+    "whenToUse": "## 何时使用\n\n- 需要展示图标时。\n- 按钮、导航等场景的图标展示。"
+  },
+  {
+    "name": "Image",
+    "dirName": "Image",
+    "description": "图片组件，用于展示图片和视频。",
+    "whenToUse": "## 何时使用\n\n- 需要展示图片时。\n- 需要展示视频时。\n- 需要图片预览功能时。"
+  },
+  {
+    "name": "IndexBar",
+    "dirName": "IndexBar",
+    "description": "索引栏，用于快速定位到指定内容。",
+    "whenToUse": "## 何时使用\n\n- 需要快速定位到指定内容时。\n- 联系人列表、城市选择等场景。"
+  },
+  {
+    "name": "Input",
+    "dirName": "Input",
+    "description": "输入框组件集合，包含多种类型的输入控件。",
+    "whenToUse": "## 何时使用\n\n- 需要用户输入文本时。\n- 需要用户输入数字时。\n- 需要用户输入密码时。\n- 需要用户输入电话号码时。\n- 需要用户输入URL时。\n- 需要用户输入邮箱时。\n- 需要用户输入搜索内容时。\n- 需要用户输入多行文本时。\n- 需要用户输入评分时。\n- 需要用户输入范围值时。"
+  },
+  {
+    "name": "Layout",
+    "dirName": "Layout",
+    "description": "布局组件，用于页面整体布局。",
+    "whenToUse": "## 何时使用\n\n- 需要页面整体布局时。\n- 需要下拉刷新功能时。\n- 需要底部按钮时。"
+  },
+  {
+    "name": "List",
+    "dirName": "List",
+    "description": "列表组件，用于展示列表数据。",
+    "whenToUse": "## 何时使用\n\n- 需要展示列表数据时。\n- 需要列表选择功能时。\n- 需要列表模态框时。"
+  },
+  {
+    "name": "Loading",
+    "dirName": "Loading",
+    "description": "加载组件，用于展示加载状态。",
+    "whenToUse": "## 何时使用\n\n- 需要展示加载状态时。\n- 数据加载、操作处理等场景。"
+  },
+  {
+    "name": "Location",
+    "dirName": "Location",
+    "description": "位置选择组件，用于选择地理位置。",
+    "whenToUse": "## 何时使用\n\n- 需要选择地理位置时。\n- 地址选择、地图定位等场景。"
+  },
+  {
+    "name": "Map",
+    "dirName": "Map",
+    "description": "地图组件，支持国际化的地图展示。",
+    "whenToUse": "## 何时使用\n\n- 需要展示地图时。\n- 需要地图标注功能时。\n- 需要多点显示时。"
+  },
+  {
+    "name": "Mark",
+    "dirName": "Mark",
+    "description": "标记组件（已废弃），请使用 Button 代替。",
+    "whenToUse": "## 何时使用\n\n- 已废弃，请使用 Button 组件代替。"
+  },
+  {
+    "name": "Modal",
+    "dirName": "Modal",
+    "description": "模态框组件集合，包含多种类型的模态框。",
+    "whenToUse": "## 何时使用\n\n- 需要弹窗展示内容时。\n- 需要导航栏模态框时。\n- 需要下拉选择模态框时。\n- 需要筛选模态框时。\n- 需要确认对话框时。"
+  },
+  {
+    "name": "NavBar",
+    "dirName": "NavBar",
+    "description": "导航栏，用于页面顶部导航。",
+    "whenToUse": "## 何时使用\n\n- 需要页面顶部导航时。\n- 需要返回按钮、标题、操作按钮时。"
+  },
+  {
+    "name": "Picker",
+    "dirName": "Picker",
+    "description": "选择器组件，用于选择各种数据。",
+    "whenToUse": "## 何时使用\n\n- 需要选择各种数据时。\n- 需要选择器模态框时。\n- 需要选择器主界面时。"
+  },
+  {
+    "name": "Progress",
+    "dirName": "Progress",
+    "description": "进度条组件，包含环形进度条和条形进度条。",
+    "whenToUse": "## 何时使用\n\n- 需要展示进度时。\n- 需要展示百分比时。\n- 需要展示加载进度时。"
+  },
+  {
+    "name": "QRCode",
+    "dirName": "QRCode",
+    "description": "二维码组件，用于生成和展示二维码。",
+    "whenToUse": "## 何时使用\n\n- 需要生成二维码时。\n- 需要展示二维码时。"
+  },
+  {
+    "name": "Radio",
+    "dirName": "Radio",
+    "description": "单选框，在一组可选项中进行单项选择时。",
+    "whenToUse": "## 何时使用\n\n- 在一组可选项中进行单项选择时。\n- 用于在互斥的选项中进行单项选择。"
+  },
+  {
+    "name": "Result",
+    "dirName": "Result",
+    "description": "结果页组件，用于展示操作结果。",
+    "whenToUse": "## 何时使用\n\n- 需要展示操作结果时。\n- 空状态、错误状态等场景。"
+  },
+  {
+    "name": "Row",
+    "dirName": "Row",
+    "description": "行组件，用于栅格布局。",
+    "whenToUse": "## 何时使用\n\n- 需要栅格布局时。\n- 需要响应式布局时。"
+  },
+  {
+    "name": "SafeArea",
+    "dirName": "SafeArea",
+    "description": "安全区域组件，用于适配不同设备的安全区域。",
+    "whenToUse": "## 何时使用\n\n- 需要适配不同设备的安全区域时。\n- 刘海屏、全面屏等设备适配。"
+  },
+  {
+    "name": "Select",
+    "dirName": "Select",
+    "description": "选择器组件，用于从多个选项中选择。",
+    "whenToUse": "## 何时使用\n\n- 需要从多个选项中选择时。\n- 需要选择器模态框时。\n- 需要选择器主界面时。"
+  },
+  {
+    "name": "Selector",
+    "dirName": "Selector",
+    "description": "选择器组件，用于选择操作。",
+    "whenToUse": "## 何时使用\n\n- 需要选择操作时。\n- 需要多选功能时。"
+  },
+  {
+    "name": "Share",
+    "dirName": "Share",
+    "description": "分享组件，用于内容分享功能。",
+    "whenToUse": "## 何时使用\n\n- 需要分享内容时。\n- 需要分享模态框时。\n- 需要分享主界面时。"
+  },
+  {
+    "name": "Signature",
+    "dirName": "Signature",
+    "description": "手写签名组件，用于电子签名功能。",
+    "whenToUse": "## 何时使用\n\n- 需要电子签名时。\n- 需要手写签名功能时。"
+  },
+  {
+    "name": "Skeleton",
+    "dirName": "Skeleton",
+    "description": "骨架屏组件，用于加载时的占位展示。",
+    "whenToUse": "## 何时使用\n\n- 需要加载时的占位展示时。\n- 提升用户体验，减少加载等待感。"
+  },
+  {
+    "name": "Space",
+    "dirName": "Space",
+    "description": "间距组件，用于设置组件之间的间距。",
+    "whenToUse": "## 何时使用\n\n- 需要设置组件之间的间距时。\n- 需要统一的间距规范时。"
+  },
+  {
+    "name": "Steps",
+    "dirName": "Steps",
+    "description": "步骤条组件，用于展示操作步骤。",
+    "whenToUse": "## 何时使用\n\n- 需要展示操作步骤时。\n- 需要时间线展示时。\n- 需要流程展示时。"
+  },
+  {
+    "name": "Switch",
+    "dirName": "Switch",
+    "description": "开关组件，用于两种状态之间的切换。",
+    "whenToUse": "## 何时使用\n\n- 需要两种状态之间的切换时。\n- 开启/关闭、是/否等场景。"
+  },
+  {
+    "name": "TabBar",
+    "dirName": "TabBar",
+    "description": "标签栏组件，用于底部导航。",
+    "whenToUse": "## 何时使用\n\n- 需要底部导航时。\n- 需要标签页切换时。\n- 需要菜单展示时。"
+  },
+  {
+    "name": "Toast",
+    "dirName": "Toast",
+    "description": "轻提示组件，用于显示简短的提示信息。",
+    "whenToUse": "## 何时使用\n\n- 需要显示简短的提示信息时。\n- 操作成功、失败等反馈信息。"
+  },
+  {
+    "name": "ToolBar",
+    "dirName": "ToolBar",
+    "description": "工具栏组件，用于展示操作按钮。",
+    "whenToUse": "## 何时使用\n\n- 需要展示操作按钮时。\n- 需要工具栏功能时。"
+  },
+  {
+    "name": "Tooltip",
+    "dirName": "Tooltip",
+    "description": "文字提示组件，用于显示额外的信息。",
+    "whenToUse": "## 何时使用\n\n- 需要显示额外的信息时。\n- 需要解释说明时。"
+  },
+  {
+    "name": "Transfer",
+    "dirName": "Transfer",
+    "description": "穿梭框组件，用于在两个列表之间移动数据。",
+    "whenToUse": "## 何时使用\n\n- 需要在两个列表之间移动数据时。\n- 需要多选功能时。\n- 需要穿梭框模态框时。"
+  },
+  {
+    "name": "Typography",
+    "dirName": "Typography",
+    "description": "排版组件，用于文本展示和编辑。",
+    "whenToUse": "## 何时使用\n\n- 需要文本展示时。\n- 需要文本编辑时。\n- 需要文本样式控制时。"
+  },
+  {
+    "name": "Upload",
+    "dirName": "Upload",
+    "description": "上传组件，用于文件上传功能。",
+    "whenToUse": "## 何时使用\n\n- 需要文件上传功能时。\n- 需要图片上传时。\n- 需要文件选择时。"
+  },
+  {
+    "name": "VideoPlayer",
+    "dirName": "VideoPlayer",
+    "description": "视频播放器组件，用于视频播放功能。",
+    "whenToUse": "## 何时使用\n\n- 需要视频播放功能时。\n- 需要视频控制时。"
+  },
+  {
+    "name": "Vott",
+    "dirName": "Vott",
+    "description": "标注组件，用于数据标注功能。",
+    "whenToUse": "## 何时使用\n\n- 需要数据标注功能时。\n- 需要图像标注时。"
+  }
+]
