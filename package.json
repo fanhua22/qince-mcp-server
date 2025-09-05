@@ -1,7 +1,7 @@
 {
   "name": "qince-mcp-server",
   "type": "module",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "bin": "dist/cli.js",
   "files": [
     "dist",
