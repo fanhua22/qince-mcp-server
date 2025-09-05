@@ -1,4 +1,4 @@
-import { defineConfig } from "@rsbuild/core";
+import { defineConfig, rspack } from "@rsbuild/core";
 import { pluginNodePolyfill } from "@rsbuild/plugin-node-polyfill";
 
 export default defineConfig({
@@ -9,7 +9,20 @@ export default defineConfig({
     },
   },
   output: {
-    target: "node",
     module: true,
+    target: "node",
+    legalComments: "none",
+  },
+  tools: {
+    rspack: (config, { rspack }) => {
+      config.plugins.push(
+        new rspack.BannerPlugin({
+          raw: true,
+          entryOnly: true,
+          banner: "#!/usr/bin/env node",
+        })
+      );
+      return config;
+    },
   },
 });
