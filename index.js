@@ -7,7 +7,6 @@ import batchRegistryPrompts from "./prompt/index.js";
 const server = new McpServer(
   { name: "qince-mcp-server", version: "1.0.0" },
   {
-    capabilities: { tools: {}, prompts: {} },
     instructions: `
       能力和角色：
         - 你是一个专业的勤策组件库专家助手,具有以下能力：
