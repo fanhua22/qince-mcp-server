@@ -46,17 +46,15 @@ const readDoc = async (name, module, type, fileName) => {
     import.meta.url
   );
   try {
-    const cacheDoc = docCache.get(getCacheName(module, type)) || {};
+    const cacheDoc = docCache.get(getCacheName(module, type, "docObj")) || {};
     if (cacheDoc?.[docJson.name]) {
       return cacheDoc[docJson.name];
     }
 
     if (existsSync(docPath)) {
       const docResult = await readFile(docPath, "utf-8");
-
       cacheDoc[docJson.name] = docResult;
-      docCache.set(getCacheName(module, type), cacheDoc);
-
+      docCache.set(getCacheName(module, type, "docObj"), cacheDoc);
       return docResult;
     }
 
