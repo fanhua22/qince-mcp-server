@@ -21,7 +21,7 @@ console.log(prompt);
 
 // 测试：工具调用
 const seedComp = await client.callTool({
-  name: "getAllComponents",
-  arguments: {},
+  name: "getComponents",
+  arguments: { componentName: "List" },
 });
 console.log(seedComp);

@@ -29,7 +29,7 @@ const loadDocList = async (module, type) => {
 
 // 加载文档
 const loadDocByName = async (name, module, type) => {
-  const { docIndexJson } = await loadDocList(module, type);
+  const { docListJson: docIndexJson } = await loadDocList(module, type);
   return docIndexJson.find((docItem) => {
     return (
       docItem.name.toLowerCase() === name.toLowerCase() ||
