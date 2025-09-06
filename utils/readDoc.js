@@ -19,8 +19,8 @@ const loadDocList = async (module, type) => {
       "utf-8"
     );
     const docListJson = JSON.parse(docList);
-    docCache.set("componentsList", docListJson);
-    return { docListJson, docList };
+    docCache.set(getCacheName(module, type), docListJson);
+    return docListJson;
   } catch (error) {
     console.error(`加载${module}/${type}列表错误: ${error.message}`);
     return [];
@@ -29,7 +29,7 @@ const loadDocList = async (module, type) => {
 
 // 加载文档
 const loadDocByName = async (name, module, type) => {
-  const { docListJson: docIndexJson } = await loadDocList(module, type);
+  const docIndexJson = await loadDocList(module, type);
   return docIndexJson.find((docItem) => {
     return (
       docItem.name.toLowerCase() === name.toLowerCase() ||
@@ -73,7 +73,7 @@ const readSeedsUIComponentDoc = async (name) => {
 };
 // 读取：seedsui组件索引文档
 const readSeedsUIComponentDocIndex = async () => {
-  return (await loadDocList("seedsui-react", "components")).docList;
+  return JSON.stringify(await loadDocList("seedsui-react", "components"));
 };
 // 读取：seedsui组件示例文档
 const readSeedsUIComponentExample = async (name) => {
