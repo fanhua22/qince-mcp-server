@@ -2,7 +2,36 @@ import { z } from "zod";
 import {
   readSeedsUIComponentDoc,
   readSeedsUIComponentExample,
+  readSeedsUIComponentDocIndex,
 } from "../../utils/readDoc.js";
+
+const getAllComponents = (server) => {
+  server.registerTool(
+    "getAllComponents",
+    {
+      title: "getAllComponents",
+      description: `
+          获取 seedsui-react 全部可用组件的索引文档: 
+          - 适用场景:
+            1.用户需求模糊, 不确定用哪些组件
+            2.用户需要查看全部可用组件的索引文档
+            3.用户输入图片后，需要根据图片生成组件代码
+      `,
+      inputSchema: {},
+    },
+    async ({}) => {
+      const componentDocsIndex = await readSeedsUIComponentDocIndex();
+      return {
+        content: [
+          {
+            type: "text",
+            text: `seedsui-react的可用组件文档是: ${componentDocsIndex}}`,
+          },
+        ],
+      };
+    }
+  );
+};
 
 const getComponents = (server) => {
   server.registerTool(
@@ -58,4 +87,4 @@ const getComponentsExample = (server) => {
   );
 };
 
-export { getComponents, getComponentsExample };
+export { getComponents, getAllComponents, getComponentsExample };

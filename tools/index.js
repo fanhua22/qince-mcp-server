@@ -1,6 +1,10 @@
+import {
+  getComponents,
+  getAllComponents,
+  getComponentsExample,
+} from "./getComponents/index.js";
 import { getUtils, getUtilsExample } from "./getUtils/index.js";
 import { getPages, getPagesExample } from "./getPages/index.js";
-import { getComponents, getComponentsExample } from "./getComponents/index.js";
 
 const batchRegistryTools = (server) => {
   [
@@ -9,6 +13,7 @@ const batchRegistryTools = (server) => {
     getComponents,
     getPagesExample,
     getUtilsExample,
+    getAllComponents,
     getComponentsExample,
   ].forEach((registryFunc) => {
     return registryFunc(server);
